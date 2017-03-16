@@ -23,7 +23,6 @@ describe('mongoose timestamp plugin test', function(){
 
     it('should create `created` and `updated` path when save document', function(done){
         var dog = new Dog({name: 'miaomiao'});
-        expect(dog.created).to.be.equal(dog.updated);
         dog.save(function(err, miao) {
             expect(err).to.equal(null);
             expect(miao).to.have.property('name').that.is.a('string');
