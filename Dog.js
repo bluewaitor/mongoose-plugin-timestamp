@@ -5,6 +5,7 @@ var DogSchema = new Schema({
     name: String
 })
 
+// use in single Schema
 // DogSchema.plugin(timePlugin);
 
 module.exports = mongoose.model('Dog', DogSchema);

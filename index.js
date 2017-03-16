@@ -1,4 +1,4 @@
-module.exports = exports = function timestampsPlugin(schema, options){
+module.exports = exports = function timestampPlugin(schema, options){
     schema.add({
         created: {
             type: String,

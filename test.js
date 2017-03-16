@@ -1,20 +1,20 @@
 var expect = require('chai').expect;
 var mongoose = require('mongoose');
-var timestampsPlugin = require('./index');
+var timestampPlugin = require('./index');
 
 //plugin must put it before require Schema
-mongoose.plugin(timestampsPlugin, {index: true});
+mongoose.plugin(timestampPlugin, {index: true});
 
 var Dog = require('./Dog');
 
-mongoose.connect('mongodb://127.0.0.1/timestamps_test', function(err){
+mongoose.connect('mongodb://127.0.0.1/timestamp_test', function(err){
     if(!err) {
         console.log('mongodb connected...');
     }else{
         console.error(err);
     }
 });
-describe('mongoose timestamps plugin test', function(){
+describe('mongoose timestamp plugin test', function(){
     before(function(done){
         Dog.remove(function(err) {
             done(err);
