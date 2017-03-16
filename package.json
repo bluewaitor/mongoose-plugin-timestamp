@@ -1,9 +1,9 @@
 {
-  "name": "mongoose-plugin-timestamps",
+  "name": "@bluewaitor/mongoose-plugin-timestamp",
   "version": "1.0.0",
   "description": "mongoose simple timestamps plugin",
   "main": "index.js",
-  "repository": "https://github.com/bluewaitor/mongoose-plugin-timestamps.git",
+  "repository": "git+https://github.com/bluewaitor/mongoose-plugin-timestamps.git",
   "author": "bluewaitor <405622394@qq.com>",
   "license": "MIT",
   "scripts": {
@@ -12,5 +12,15 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mongoose": "^4.9.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/bluewaitor/mongoose-plugin-timestamps/issues"
+  },
+  "homepage": "https://github.com/bluewaitor/mongoose-plugin-timestamps#readme",
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "timestamp"
+  ]
+  
 }
