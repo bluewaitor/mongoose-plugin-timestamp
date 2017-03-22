@@ -1,6 +1,6 @@
 {
   "name": "@bluewaitor/mongoose-plugin-timestamp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mongoose simple timestamp plugin",
   "main": "index.js",
   "repository": "git+https://github.com/bluewaitor/mongoose-plugin-timestamp.git",
