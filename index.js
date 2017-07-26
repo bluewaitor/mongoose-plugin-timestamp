@@ -32,7 +32,6 @@ module.exports = exports = function timestampPlugin(schema, options){
     });
 
     schema.pre('findOneAndUpdate', function(next){
-        console.log('findOneAndUpdate ing ...');
         this.update({},{ $set: { updated: Date.now() } });
         next();
     });
